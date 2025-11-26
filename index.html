@@ -9,7 +9,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-</head>
+
+      <style>
+        .profile-image-wrapper[data-position="left"] {
+          justify-self: start;
+          margin-left: 2rem;
+          margin-right: auto;
+        }
+        .profile-image-wrapper[data-position="center"] {
+          justify-self: center;
+          margin: 0 auto;
+        }
+        .profile-image-wrapper[data-position="right"] {
+          justify-self: end;
+          margin-left: auto;
+          margin-right: 2rem;
+        }
+      </style>
+      
+        <style>
+          .skill-card { padding: 1.5rem; font-size: 1rem; }
+        </style>
+        
+        <style>
+          .project-card { padding: 1.5rem; font-size: 1rem; }
+        </style>
+        </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
@@ -30,7 +55,7 @@
         <div class="hero-bg"></div>
         <div class="container">
             <div class="hero-content">
-                <div class="profile-image-wrapper">
+                <div class="profile-image-wrapper" data-position="center">
                     <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w&#x3D;400&amp;h&#x3D;400&amp;fit&#x3D;crop" alt="Ananya" class="profile-image">
                     <div class="profile-ring"></div>
                 </div>
